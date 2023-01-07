@@ -1,6 +1,8 @@
 from flask import Flask, render_template, request, redirect, url_for
 from Forms import CreateUserFrom, CreateAdminForm
-import shelve, User, Admin
+import shelve
+import User
+import Admin
 
 
 app = Flask(__name__)
